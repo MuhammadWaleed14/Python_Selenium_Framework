@@ -1,0 +1,11 @@
+{
+  "Email": "Email;emailaddress@domain.com",
+  "Card_no_part1":"Card number;4200",
+  "Card_no_part2": "Card number;0000",
+  "Card_no_part3": "Card number;0000",
+  "Card_no_part4": "Card number;0000",
+  "MM": "MM / YY;03",
+  "YY": "MM / YY;23",
+  "CVC": "CVC;123",
+  "ZIP Code": "ZIP Code;44000"
+}
