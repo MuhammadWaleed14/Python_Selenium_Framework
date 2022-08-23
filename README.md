@@ -26,10 +26,10 @@ This solution has been designed to test web application https://weathershopper.p
 3.  Now replace your browser driver executable files in /browsers directory (if required)
 ## Run Tests in Different Browsers
 1.	Go to config.json file on root of project.
-2.	Against key “browser” you can:
-    *	Set value to “chrome” to run against Chrome
-    *	Set value to “firefox” to run against FireFox
-         * If you select Firefox, make sure that in config.json against key “firefox_binary” you also specify the path of executable binary for firefox which would be firefox.exe file at the install directory of Firefox on your computer. On windows it would generally be "C:/Program Files/Mozilla Firefox/firefox.exe" and this is already set in the config file but you can change it if your path is different.
+2.	Against key **browser** you can:
+    *	Set value to **chrome** to run against Chrome
+    *	Set value to **firefox** to run against FireFox
+         * If you select Firefox, make sure that in config.json against key **firefox_binary** you also specify the path of executable binary for firefox which would be firefox.exe file at the install directory of Firefox on your computer. On windows it would generally be "C:/Program Files/Mozilla Firefox/firefox.exe" and this is already set in the config file but you can change it if your path is different.
 **Note: Please note that firefox_binary is not geckodriver so don’t confuse between these two, geckodriver would be picked automatically from /browsers folder**
 3.  Once you are done with setting up the code. It’s time to invoke pytest and execute the test
 ## Execute Tests from PyCharm
